@@ -46,7 +46,8 @@
     "local:run": "start-test 8080 cy:run",
     "local:run:record": "start-test 8080 cy:run:record",
     "ci:set-port": "node ./scripts/set-port",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "bamboo": "node node_modules/mocha/bin/mocha -R mocha-bamboo-reporter"
   },
   "repository": {
     "type": "git",
@@ -79,7 +80,9 @@
     "start-server-and-test": "1.10.6",
     "stop-build": "1.1.0",
     "typescript": "3.7.4",
-    "yaml-lint": "1.2.4"
+    "yaml-lint": "1.2.4",
+    "mocha": ">=1.8.1", 
+    "mocha-bamboo-reporter": "*"
   },
   "engines": {
     "node": ">=4"
