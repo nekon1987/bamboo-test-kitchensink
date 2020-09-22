@@ -2,7 +2,7 @@
 
 context('Viewport', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8080/commands/viewport')
+    cy.visit('http://10.0.5.1:8080/commands/viewport')
   })
 
   it('cy.viewport() - set the viewport size and dimension', () => {

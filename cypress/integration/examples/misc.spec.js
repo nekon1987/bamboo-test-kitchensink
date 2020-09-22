@@ -2,7 +2,7 @@
 
 context('Misc', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8080/commands/misc')
+    cy.visit('http://10.0.5.1:8080/commands/misc')
   })
 
   it('.end() - end the command chain', () => {

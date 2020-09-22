@@ -63,7 +63,12 @@ RUN apt-get update && \
 # RUN sudo sh -c echo deb https://deb.nodesource.com/node_8.x cosmic main
 RUN apt-get -y install nodejs
 RUN apt-get install -y npm
-# RUN sudo adduser ${BAMBOO_USER} sudo
+
+RUN apt-get update && \
+    apt-get -y install sudo
+
+RUN sudo adduser ${BAMBOO_USER} sudo
+RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo
 
 USER ${BAMBOO_USER}
 COPY  --chown=bamboo:bamboo docker/entrypoint.sh /entrypoint.sh

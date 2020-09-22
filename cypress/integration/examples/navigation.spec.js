@@ -2,7 +2,7 @@
 
 context('Navigation', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8080')
+    cy.visit('http://10.0.5.1:8080')
     cy.get('.navbar-nav').contains('Commands').click()
     cy.get('.dropdown-menu').contains('Navigation').click()
   })
@@ -42,7 +42,7 @@ context('Navigation', () => {
 
     /* eslint-disable no-unused-vars */
     // Pass options to the visit
-    cy.visit('http://localhost:8080/commands/navigation', {
+    cy.visit('http://10.0.5.1:8080/commands/navigation', {
       timeout: 50000, // increase total time for the visit to resolve
       onBeforeLoad (contentWindow) {
         // contentWindow is the remote page's window object
