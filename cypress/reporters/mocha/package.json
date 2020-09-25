@@ -229,7 +229,7 @@
   "scripts": {
     "prepublishOnly": "nps test clean build",
     "start": "nps",
-    "test": "nps test",
+    "test": "nps ./././integration/examples",
     "version": "nps version"
   },
   "version": "8.1.3"
