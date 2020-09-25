@@ -1,5 +1,5 @@
 {
   "projectId": "4b7344",
   "integrationFolder": "integration/examples" ,
-  "reporter": "mocha-bamboo-reporter"
+  "reporter": "json"
 }
