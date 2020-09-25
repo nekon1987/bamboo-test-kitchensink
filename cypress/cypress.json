@@ -3,6 +3,6 @@
   "integrationFolder": "integration/examples" ,
   "reporter": "reporters/mocha-bamboo-reporter/lib/bamboo.js",
   "reporterOptions": {
-    "output": "mocha_results.json"
+    "output": "./mocha_results.json"
   }
 }
