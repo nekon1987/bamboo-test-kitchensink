@@ -1,12 +1,5 @@
 {
   "projectId": "4b7344",
   "integrationFolder": "integration/examples" ,
-  "reporter": "reporters/mochawesome/src/mochawesome.js",
-  "reporterOptions": {
-    "reportDir": "reports",
-    "reportFilename": "mocha.json",
-    "overwrite": true,
-    "html": false,
-    "json": true
-  }
+  "reporter": "mocha-bamboo-reporter"
 }
