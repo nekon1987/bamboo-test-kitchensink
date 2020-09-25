@@ -1,5 +1,11 @@
 {
   "projectId": "4b7344",
   "integrationFolder": "integration/examples" ,
-  "reporter": "json"
+  "reporter": "json",
+  "reporterOptions": {
+    "reportFilename": "mocha.json",
+    "overwrite": true,
+    "html": false,
+    "json": true
+  }
 }
