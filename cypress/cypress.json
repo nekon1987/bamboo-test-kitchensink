@@ -1,4 +1,12 @@
 {
   "projectId": "4b7344",
-  "integrationFolder": "integration/examples" 
+  "integrationFolder": "integration/examples" ,
+  "reporter": "./node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "reportDir": "reports",
+    "reportFilename": "mocha.json",
+    "overwrite": true,
+    "html": false,
+    "json": true
+  }
 }

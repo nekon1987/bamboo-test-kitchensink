@@ -81,8 +81,9 @@
     "stop-build": "1.1.0",
     "typescript": "3.7.4",
     "yaml-lint": "1.2.4",
-    "mocha": ">=1.8.1", 
-    "mocha-bamboo-reporter": "*"
+    "mocha": ">=1.8.1",
+    "mocha-bamboo-reporter": "*",
+    "mochawesome": "6.1.1"
   },
   "engines": {
     "node": ">=4"
