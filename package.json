@@ -47,7 +47,7 @@
     "local:run:record": "start-test 8080 cy:run:record",
     "ci:set-port": "node ./scripts/set-port",
     "semantic-release": "semantic-release",
-    "bamboo": "node cypress/node_modules/reporters/mocha/bin/mocha -R mocha-bamboo-reporter"
+    "bamboo": "node cypress/node_modules/reporters/mocha/bin/mocha -R cypress/node_modules/reporters/mocha-bamboo-reporter"
   },
   "repository": {
     "type": "git",
