@@ -3,6 +3,7 @@
   "integrationFolder": "integration/examples" ,
   "reporter": "json",
   "reporterOptions": {
+    "reportDir": "reports",
     "reportFilename": "mocha.json",
     "overwrite": true,
     "html": false,
