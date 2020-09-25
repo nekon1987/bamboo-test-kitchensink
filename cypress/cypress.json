@@ -1,7 +1,7 @@
 {
   "projectId": "4b7344",
   "integrationFolder": "integration/examples" ,
-  "reporter": "./node_modules/mochawesome/src/mochawesome.js",
+  "reporter": "reporters/mochawesome/src/mochawesome.js",
   "reporterOptions": {
     "reportDir": "reports",
     "reportFilename": "mocha.json",
