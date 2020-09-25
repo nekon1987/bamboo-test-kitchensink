@@ -55,7 +55,7 @@
   },
   "author": "Brian Mann",
   "license": "MIT",
-  "bugs": {
+  "bugs": { 
     "url": "https://github.com/cypress-io/cypress-example-kitchensink/issues"
   },
   "homepage": "https://github.com/cypress-io/cypress-example-kitchensink#readme",
@@ -90,8 +90,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run lint:yaml",
-      "pre-push": "npm run lint && npm run lint:yaml"
     }
   }
 }
