@@ -2,7 +2,7 @@
 
 context('Traversal', () => {
   beforeEach(() => {
-    cy.visit('http://10.0.5.1:8080/commands/traversal')
+    cy.visit('http://10.0.5.17:8080/commands/traversal')
   })
 
   it('.children() - get child DOM elements', () => {

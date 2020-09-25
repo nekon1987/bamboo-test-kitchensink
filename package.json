@@ -20,7 +20,7 @@
     "lint": "eslint --fix cypress app/assets/js/scripts.js",
     "lint:yaml": "yamllint '*.yml' 'basic/*.yml' .buildkite/pipeline.yml .semaphore/semaphore.yml '.github/workflows/*.yml'",
     "colon:names": "colon-names",
-    "e2e": "cypress run",
+    "e2e": "cypress run --config-file cypress/cypress.json",
     "e2e:chrome": "cypress run --browser chrome",
     "e2e:record": "cypress run --record",
     "e2e:record:chrome": "cypress run --record --browser chrome",

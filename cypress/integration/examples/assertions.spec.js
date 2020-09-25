@@ -2,7 +2,7 @@
 
 context('Assertions', () => {
   beforeEach(() => {
-    cy.visit('http://10.0.5.1:8080/commands/assertions')
+    cy.visit('http://10.0.5.17:8080/commands/assertions')
   })
 
   describe('Implicit Assertions', () => {

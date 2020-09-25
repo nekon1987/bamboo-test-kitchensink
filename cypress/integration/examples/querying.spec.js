@@ -2,7 +2,7 @@
 
 context('Querying', () => {
   beforeEach(() => {
-    cy.visit('http://10.0.5.1:8080/commands/querying')
+    cy.visit('http://10.0.5.17:8080/commands/querying')
   })
 
   // The most commonly used query is 'cy.get()', you can
