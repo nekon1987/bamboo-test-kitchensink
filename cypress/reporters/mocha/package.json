@@ -172,7 +172,7 @@
   },
   "directories": {
     "lib": "./lib",
-    "test": "./test"
+    "test": "./test2"
   },
   "engines": {
     "node": ">= 10.12.0"
