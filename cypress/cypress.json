@@ -1,12 +1,8 @@
 {
   "projectId": "4b7344",
   "integrationFolder": "integration/examples" ,
-  "reporter": "json",
+  "reporter": "reporters/mocha-bamboo-reporter/lib/bamboo.js",
   "reporterOptions": {
-    "reportDir": "reports",
-    "reportFilename": "mocha.json",
-    "overwrite": true,
-    "html": false,
-    "json": true
+    "output": "mocha.json"
   }
 }
