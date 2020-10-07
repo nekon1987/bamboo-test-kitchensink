@@ -2,7 +2,7 @@
 
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('http://192.168.0.15:8080/commands/actions')
+    cy.visit('http://10.0.5.23:8080/commands/actions')
   })
 
   // https://on.cypress.io/interacting-with-elements
